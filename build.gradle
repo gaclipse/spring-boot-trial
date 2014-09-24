@@ -49,3 +49,7 @@ springBoot {
     mainClass = "to.gak.Boot"
     layout = "JAR"
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+}
